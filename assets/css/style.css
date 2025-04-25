@@ -1,0 +1,68 @@
+/* Styles généraux */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+/* Styles des cartes */
+.card {
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Styles de la collection */
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Styles de la barre de recherche */
+.search-bar {
+    margin: 20px 0;
+}
+
+/* Styles des messages d'alerte */
+.alert {
+    margin: 20px 0;
+}
+
+/* Styles des boutons */
+.btn-draw {
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+/* Styles de la page d'administration */
+.admin-panel {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Styles des formulaires */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} 
